@@ -6,21 +6,30 @@
 }
 
 .container{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .top-menu{
-    height: 100px;
-    background-color: #ff62d2;
     margin-top: 20px;
-    margin-bottom: 20px;
+}
+
+ul#menu li{
+    display: inline-block;
+    padding: 5px; 
+    color: grey;
+}
+
+#logo{
+    width: 200px;
+    padding-bottom: 30px;
 }
 
 .jumbotron{
     background-color: #fdeb7e;
     height: 400px;
     margin-bottom: 20px ;
+    margin-top: 20px;
 }
 
 div#content{
@@ -28,10 +37,10 @@ div#content{
     margin-bottom: 5px;
 }
 
-header{
-    height:60px;
-    margin-bottom: 20px;
+div#content header{
+    height:50px;
     background-color: lightblue;
+    margin-bottom: 20px;
 }
 
 .clearfix::after {
