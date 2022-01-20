@@ -58,13 +58,10 @@ ul#menu li{
 }
 
 div#content{
-    background-color: #2289ff;
     margin-bottom: 5px;
 }
 
 div#content header{
-    height:50px;
-    background-color: lightblue;
     margin-bottom: 20px;
 }
 
@@ -75,19 +72,43 @@ div#content header{
 }
 
 aside{
-    height: 400px;
     width: 20%;
     float: left;
-    background-color: lightblue;
-    margin-bottom: 10px;
+    margin-bottom: 10px;   
+}
+
+.img-main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#main-img1{
+    background-image: url(../img/img-1.jpg);
+}
+
+#main-img2{
+    background-image: url(../img/banner-2.jpg);
+}
+
+#main-img3{
+    background-image: url(../img/img-3.jpg);
+}
+
+.title-aside{
+    font-weight: 600;
+    padding-bottom: 10px;
 }
 
 article{
     float: left;
-    height: 400px;
     margin: auto 10px ;
     width: calc(60% - 20px);
-    background-color: lightblue;
+    margin-bottom: 30px;
 }
 
 
